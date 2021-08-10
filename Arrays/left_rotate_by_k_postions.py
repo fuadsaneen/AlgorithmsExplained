@@ -9,12 +9,12 @@ def left_rotate_by_one(size, array):
     # Store first element.
     first_element = array[0]
 
-    # Do for each element in the array.
+    # Do for each element from position 0 to size - 2 (ie, excluding last element).
     for i in range(size - 1):
-        # Set next element to current element.
+        # Copy next element to current element.
         array[i] = array[i + 1]
 
-    # Set first element to last position.
+    # Copy first element to last position.
     array[-1] = first_element   
 
 # O(k) time | O(1) space
