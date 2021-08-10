@@ -9,7 +9,7 @@ def find_sum(size, array):
     # Assume that sum is initialy zero.
     sum = 0
 
-    # Do for each elements from position 0 to size-1.
+    # Do for each element in the array.
     for i in range(size):
         # Declare the current element.
         current_element = array[i]
