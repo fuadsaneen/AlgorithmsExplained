@@ -13,7 +13,7 @@ def find_max(array, size):
     for i in range(1, size):
         # Declare the current element.
         current_element = array[i]
-        # Compare current_element with max_element and choose the maximum as max_element.
+        # Compare current_element with max_element and choose their maximum as max_element.
         max_element = max(max_element, current_element)
 
     # Return the max_element.
