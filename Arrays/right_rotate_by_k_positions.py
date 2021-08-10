@@ -1,4 +1,4 @@
-# Program : right rotate the array by k positions.
+# Program : Right rotate the array by k positions.
 # Input : size = 5, array = [1, 3, 5, 2, 4], k = 2
 # Ouput : [2, 4, 1, 3, 5]
 # Language : Python3
