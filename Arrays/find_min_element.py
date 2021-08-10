@@ -6,7 +6,7 @@
 # O(n) time | O(1) space
 def find_min_element(size, array):
 
-    # Assume that 1st element is the minimum element in the array.
+    # Assume that first element is the minimum element in the array.
     min_element = array[0]
 
     # Do for all elements from position 1 to size-1
