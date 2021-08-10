@@ -6,7 +6,7 @@
 # O(n) time | O(1) space
 def find_max(array, size):
 
-    # Assume that 1st element is the maximum in the array.
+    # Assume that 1st element is the maximum element in the array.
     max_element = array[0]
 
     # Do for all elements from position 1 to size-1
