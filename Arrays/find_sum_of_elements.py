@@ -16,7 +16,6 @@ def find_sum(size, array):
         # Add current element to sum.
         sum = sum + current_element
         
-
     # Return the sum.
     return sum 
 
