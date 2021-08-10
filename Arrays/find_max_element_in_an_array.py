@@ -4,7 +4,7 @@
 # Language : Python3
 
 # O(n) time | O(1) space
-def find_max(array, size):
+def find_max_element(array, size):
 
     # Assume that 1st element is the maximum element in the array.
     max_element = array[0]
@@ -27,7 +27,7 @@ if __name__ == '__main__':
     array = [1, 3, 5, 2, 4]
 
     # Find maximum element and store it in answer variable.
-    answer = find_max(array, size)
+    answer = find_max_element(array, size)
 
     # Print answer.
     print(answer)
