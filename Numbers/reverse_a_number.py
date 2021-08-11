@@ -15,7 +15,7 @@ def reverse_a_number(number):
         # Calculate last digit.
         last_digit = number % 10
         # Add the last digit to reverse.
-        reverse = reverse*10 + last_digit
+        reverse = (reverse*10) + last_digit
         # Divide the number by 10 to find next last digit.
         number = number // 10   
 
