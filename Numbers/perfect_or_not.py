@@ -31,7 +31,7 @@ if __name__ == '__main__':
     # Declare the number.
     number = 6
 
-    # Check whether the number is perfect or not and store the result in answer variable.
+    # Check whether the number is perfect or not and store the result in the answer variable.
     answer = perfect_or_not(number)
 
     # Print the answer.

@@ -40,7 +40,7 @@ if __name__ == '__main__':
     array = [1, 2, 3, 4, 5]
     target = 2
 
-    # Find the index of the target and store the result in answer variable.
+    # Find the index of the target and store the result in the answer variable.
     answer = binary_search(size, array, target)
 
     # Print the answer.

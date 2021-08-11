@@ -37,7 +37,7 @@ if __name__ == '__main__':
     array = [1, 3, 5, 2, 4]
     k = 2
 
-    # Right rotate the array k times and store in answer variable.
+    # Right rotate the array k times and store in the answer variable.
     answer = right_rotate_k_times(size, array, k)
 
     # Print the answer.

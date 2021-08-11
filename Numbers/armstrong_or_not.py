@@ -35,7 +35,7 @@ if __name__ == '__main__':
     # Declare the number.
     number = 153
 
-    # Check whether the number is armstrong or not and store the result in answer variable.
+    # Check whether the number is armstrong or not and store the result in the answer variable.
     answer = armstrong_or_not(number)
 
     # Print the answer.

@@ -26,7 +26,7 @@ if __name__ == '__main__':
     # Declare n.
     n = 18
 
-    # Find the sum of n natural numbers and store the result in answer variable.
+    # Find the sum of n natural numbers and store the result in the answer variable.
     answer = sum_of_n_natural_numbers(n)
 
     # Print the answer.

@@ -26,7 +26,7 @@ if __name__ == '__main__':
     a = 8
     b = 16
 
-    # Swap the two numbers and store the result in answer variable.
+    # Swap the two numbers and store the result in the answer variable.
     answer = swap_two_numbers(a, b)
 
     # Print the answer.

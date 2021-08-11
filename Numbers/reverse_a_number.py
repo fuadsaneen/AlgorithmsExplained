@@ -28,7 +28,7 @@ if __name__ == '__main__':
     # Declare the number.
     number = 12345
 
-    # Find the reverse of the number and store the result in answer variable.
+    # Find the reverse of the number and store the result in the answer variable.
     answer = reverse_a_number(number)
 
     # Print the answer.

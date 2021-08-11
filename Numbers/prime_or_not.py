@@ -22,7 +22,7 @@ if __name__ == '__main__':
     # Declare the number.
     number = 7
 
-    # Check whether the number is prime or not and store the result in answer variable.
+    # Check whether the number is prime or not and store the result in the answer variable.
     answer = prime_or_not(number)
 
     # Print the answer.

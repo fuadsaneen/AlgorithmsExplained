@@ -27,7 +27,7 @@ if __name__ == '__main__':
     size = 5
     array = [1, 3, 5, 2, 4]
 
-    # Find the sum of elements and store the result in answer variable.
+    # Find the sum of elements and store the result in the answer variable.
     answer = find_sum(size, array)
 
     # Print the answer.

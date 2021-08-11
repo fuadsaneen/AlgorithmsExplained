@@ -20,7 +20,7 @@ if __name__ == '__main__':
     # Declare the number.
     number = -3
 
-    # Find the absolute value of the number and store the result in answer variable.
+    # Find the absolute value of the number and store the result in the answer variable.
     answer = absolute_value(number)
 
     # Print the answer.

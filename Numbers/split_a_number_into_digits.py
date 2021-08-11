@@ -27,7 +27,7 @@ if __name__ == '__main__':
     # Declare the number.
     number = 12345
 
-    # Split the number into digits and store the result in answer variable.
+    # Split the number into digits and store the result in the answer variable.
     answer = split_number_into_digits(number)
 
     # Print the answer.
