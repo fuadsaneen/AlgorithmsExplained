@@ -14,7 +14,7 @@ def binary_search(size, array, target):
     while left <= right:
 
         # Compute the middle index and middle element.
-        middle_index = right - left // 2
+        middle_index = left + (right - left) // 2
         middle_element = array[middle_index]
 
         # If the middle element is equal to the target, then return middle index.
@@ -23,7 +23,7 @@ def binary_search(size, array, target):
         # If the middle element is less than the target, then increment left pointer.   
         elif middle_element < target:
             left = left + 1
-        # Otherwise, ie, If the middle element is greater than the target, then decrement right pointer.  
+        # Otherwise, ie, if the middle element is greater than the target, then decrement right pointer.  
         else:
             right = right - 1
 
