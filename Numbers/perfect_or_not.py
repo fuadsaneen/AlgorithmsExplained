@@ -11,12 +11,12 @@ def perfect_or_not(number):
     sum = 1
 
     # Do for each element starting from 2 to sqrt(number).
-    for i in range(2, (number ** 0.5) + 1):    
+    for i in range(2, int((number ** 0.5) + 1)):    
         if number % i == 0:
             if number / i == i:
                 sum = sum + i
             else:
-                sum = sum + number + i/i
+                sum = sum + i + (number/i)
 
     # If the sum is equal to the number, then it is perfect.
     if sum == number:
@@ -29,7 +29,7 @@ def perfect_or_not(number):
 if __name__ == '__main__':
 
     # Declare the number.
-    number = 565
+    number = 6
 
     # Check whether the number is perfect or not and store the result in answer variable.
     answer = perfect_or_not(number)
