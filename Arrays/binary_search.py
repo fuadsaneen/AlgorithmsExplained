@@ -1,7 +1,7 @@
 # Program : Binary search in an array.
 # Input : size = 5, array = [1, 2, 3, 4, 5], target = 2
 # Output : 1
-# Explanation : The index of element 2 is 1.
+# Explanation : The index of the element 2 is 1.
 # Language : Python3
 
 # O(log(n)) time | O(1) space
