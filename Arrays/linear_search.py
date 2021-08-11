@@ -10,7 +10,7 @@ def linear_search(size, array, key):
     for i in range(size):
         # Declare the current element.
         current_element = array[i]
-        # If current element is equal to key, then return the current index.
+        # If the current element is equal to key, then return the current index.
         if current_element == key:
             return i
 
