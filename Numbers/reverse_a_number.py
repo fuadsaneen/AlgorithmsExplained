@@ -10,7 +10,7 @@ def reverse_a_number(number):
     # Intialize reverse as zero.
     reverse = 0
 
-    # Till the number is greater than zero.
+    # Do till the number is greater than zero.
     while number > 0:
         # Find the last digit.
         last_digit = number % 10

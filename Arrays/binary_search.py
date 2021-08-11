@@ -11,7 +11,7 @@ def binary_search(size, array, target):
     left = 0
     right = size - 1
 
-    # Till the left less than or equal to right.
+    # Do till the left less than or equal to right.
     while left <= right:
 
         # Compute the middle index and middle element.

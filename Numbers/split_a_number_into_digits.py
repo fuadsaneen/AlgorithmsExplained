@@ -10,7 +10,7 @@ def split_number_into_digits(number):
     # Intialize a list to store the digits.
     digits = []
 
-    # Till the number is greater than zero.
+    # Do till the number is greater than zero.
     while number > 0:
         # Find the last digit and append it to list.
         last_digit = number % 10

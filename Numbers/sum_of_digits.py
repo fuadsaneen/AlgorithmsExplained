@@ -10,7 +10,7 @@ def sum_of_digits(number):
     # Intialize sum as zero.
     sum = 0
 
-    # Till the number is greater than zero.
+    # Do till the number is greater than zero.
     while number > 0:
         # Find the last digit.
         last_digit = number % 10
