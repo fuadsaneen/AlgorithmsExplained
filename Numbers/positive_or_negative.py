@@ -9,11 +9,11 @@ def positive_or_negative(number):
 
     # If the number is equal to zero, then it is neither positive nor negative.
     if number == 0:
-        return "Neither positve nor negative"
+        return "Neither positve nor negative."
     # If the number is greater than zero, then it is positive.    
     elif number > 0:
         return "Positve"
-    # Otherwise, ie, if the number is less than zero, then it is negative    
+    # Otherwise, ie, if the number is less than zero, then it is negative.
     else:
         return "Negative"        
 
