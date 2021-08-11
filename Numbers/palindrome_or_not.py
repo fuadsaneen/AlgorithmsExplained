@@ -1,7 +1,7 @@
 # Program : Check whether the number is palindrome or not.
 # Input : number = 565
 # Output : True
-# Explanation : The number and its reverse are same, so it is a palindrome number.
+# Explanation : The number and its reverse are the same, so it is a palindrome number.
 # Language : Python3
 
 # O(n) time | O(1) space
