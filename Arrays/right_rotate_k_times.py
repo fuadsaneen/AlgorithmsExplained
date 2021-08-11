@@ -6,7 +6,7 @@
 # O(n) time | O(1) space
 def right_rotate_one_time(size, array):
 
-    # Store last element.
+    # Store the last element.
     last_element = array[-1]
 
     # Do for each element starting from position size - 2 to 0 (ie, excluding last element).
