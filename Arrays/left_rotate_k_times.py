@@ -4,7 +4,7 @@
 # Language : Python3
 
 # O(n) time | O(1) space
-def left_rotate_by_one(size, array):
+def left_rotate_one_time(size, array):
 
     # Store first element.
     first_element = array[0]
@@ -18,12 +18,12 @@ def left_rotate_by_one(size, array):
     array[-1] = first_element   
 
 # O(k) time | O(1) space
-def left_rotate_by_k(size, array, k):
+def left_rotate_k_times(size, array, k):
 
     # Do for k times.
     for i in range(k):
         # Left rotate the array by one position.
-        left_rotate_by_one(size, array)
+        left_rotate_one_time(size, array)
 
     # Return the updated array.
     return array    
@@ -36,8 +36,8 @@ if __name__ == '__main__':
     array = [1, 3, 5, 2, 4]
     k = 2
 
-    # Left rotate the array by k positions and store it in answer variable.
-    answer = left_rotate_by_k(size, array, k)
+    # Left rotate the array k times and store it in answer variable.
+    answer = left_rotate_k_times(size, array, k)
 
     # Print answer.
     print(answer)

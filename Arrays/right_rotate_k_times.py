@@ -4,7 +4,7 @@
 # Language : Python3
 
 # O(n) time | O(1) space
-def right_rotate_by_one(size, array):
+def right_rotate_one_time(size, array):
 
     # Store last element.
     last_element = array[-1]
@@ -18,12 +18,12 @@ def right_rotate_by_one(size, array):
     array[0] = last_element   
 
 # O(k) time | O(1) space
-def right_rotate_by_k(size, array, k):
+def right_rotate_k_times(size, array, k):
 
     # Do for k times.
     for i in range(k):
         # Right rotate the array by one position.
-        right_rotate_by_one(size, array)
+        right_rotate_one_time(size, array)
 
     # Return the updated array.
     return array    
@@ -36,8 +36,8 @@ if __name__ == '__main__':
     array = [1, 3, 5, 2, 4]
     k = 2
 
-    # right rotate the array by k positions and store it in answer variable.
-    answer = right_rotate_by_k(size, array, k)
+    # Right rotate the array k times and store it in answer variable.
+    answer = right_rotate_k_times(size, array, k)
 
     # Print answer.
     print(answer)
