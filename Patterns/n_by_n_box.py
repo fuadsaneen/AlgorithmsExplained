@@ -16,7 +16,7 @@ def n_by_n_box(n):
         for j in range(4):
             # Print * followed by an empty space.
             print("*", end = " ")
-        # Go to new line.    
+        # Go to the new line.    
         print("")  
 
 # Main function.
