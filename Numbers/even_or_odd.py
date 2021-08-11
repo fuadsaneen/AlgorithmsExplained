@@ -1,4 +1,4 @@
-# Program : Check whether the given number is even or odd.
+# Program : Check whether the number is even or odd.
 # Input : number = 5
 # Output : Odd
 # Explanation : 5 is not divisible by 2, so it is an odd number.
@@ -20,7 +20,7 @@ if __name__ == '__main__':
     # Declare the number.
     number = 5
 
-    # Check whether the given number is even or odd and store the result in answer variable.
+    # Check whether the number is even or odd and store the result in answer variable.
     answer = even_or_odd(number)
 
     # Print answer.

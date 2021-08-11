@@ -1,4 +1,4 @@
-# Program : Check whether the given number is positve or negative.
+# Program : Check whether the number is positve or negative.
 # Input : number = -3
 # Output : Negative
 # Explanation : -3 is less than zero, so it is a negative number.
@@ -23,7 +23,7 @@ if __name__ == '__main__':
     # Declare the number.
     number = -3
 
-    # Check whether the given number is positive or negative and store the result in answer variable.
+    # Check whether the number is positive or negative and store the result in answer variable.
     answer = positive_or_negative(number)
 
     # Print answer.

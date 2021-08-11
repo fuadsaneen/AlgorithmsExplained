@@ -28,7 +28,7 @@ if __name__ == '__main__':
     # Declare the number.
     number = 12345
 
-    # Find the sum of digits in a number and store the result in answer variable.
+    # Find the sum of digits in the number and store the result in answer variable.
     answer = sum_of_digits(number)
 
     # Print answer.

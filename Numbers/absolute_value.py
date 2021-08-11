@@ -1,4 +1,4 @@
-# Program : Find the absolute value of the given number.
+# Program : Find the absolute value of the number.
 # Input : number = -3
 # Output : 3
 # Explanation : The absolute value of a number is the distance to that number from origin, so here it is 3.
@@ -20,7 +20,7 @@ if __name__ == '__main__':
     # Declare the number.
     number = -3
 
-    # Find the absolute value of the given number and store the result in answer variable.
+    # Find the absolute value of the number and store the result in answer variable.
     answer = absolute_value(number)
 
     # Print answer.
