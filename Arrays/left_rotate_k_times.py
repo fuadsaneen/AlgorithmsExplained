@@ -1,4 +1,4 @@
-# Program : Left rotate the array by k times.
+# Program : Left rotate the array k times.
 # Input : size = 5, array = [1, 3, 5, 2, 4], k = 2
 # Output : [5, 2, 4, 1, 3]
 # Language : Python3
