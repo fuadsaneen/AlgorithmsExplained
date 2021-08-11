@@ -10,7 +10,7 @@ def is_x_a_factor_of_number(number, x):
     # If the number is divisible by x, then x is a factor of the number.
     if number % x == 0:
         return True
-    # Otherwise, ie, if the number is not divisible by x, then x is not a factor of the number.    
+    # Otherwise, if the number is not divisible by x, then x is not a factor of the number.    
     else:
         return False    
 

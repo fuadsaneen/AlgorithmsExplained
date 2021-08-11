@@ -13,7 +13,7 @@ def positive_or_negative(number):
     # If the number is greater than zero, then it is positive number.    
     elif number > 0:
         return "Positve"
-    # Otherwise, ie, if the number is less than zero, then it is negative number.
+    # Otherwise, if the number is less than zero, then it is negative number.
     else:
         return "Negative"        
 

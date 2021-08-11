@@ -25,7 +25,7 @@ def armstrong_or_not(number):
     # If sum is equal to the temp, then the number is an armstrong number.
     if sum == temp:
         return True
-    # Otherwise, ie, if the sum is not equal to the temp, then the number is not an armstrong number.
+    # Otherwise, if the sum is not equal to the temp, then the number is not an armstrong number.
     else:
         return False 
 

@@ -10,7 +10,7 @@ def even_or_odd(number):
     # If the number is divisible by two, then it is an even number.
     if number % 2 == 0:
         return "Even"
-    # Otherwise, ie, if the number is not divisible by two, then it is an odd number.    
+    # Otherwise, if the number is not divisible by two, then it is an odd number.    
     else:
         return "Odd"    
 

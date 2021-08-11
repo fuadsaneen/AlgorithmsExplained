@@ -10,7 +10,7 @@ def absolute_value(number):
     # If the number is less than zero, then its absolute value is -(number).
     if number < 0:
         return -(number)
-    # Otherwise, ie, if the number is greater than or equal to zero, then its absolute value is the number itself.    
+    # Otherwise, if the number is greater than or equal to zero, then its absolute value is the number itself.    
     else:
         return number     
 
