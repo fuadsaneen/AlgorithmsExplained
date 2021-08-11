@@ -20,7 +20,7 @@ if __name__ == '__main__':
     # Declare the number.
     number = 5
 
-    # Find whether the given number is even or odd and store the result in answer variable.
+    # Check whether the given number is even or odd and store the result in answer variable.
     answer = even_or_odd(number)
 
     # Print answer.
