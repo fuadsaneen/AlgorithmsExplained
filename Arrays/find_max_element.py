@@ -31,5 +31,5 @@ if __name__ == '__main__':
     # Find the maximum element and store the result in answer variable.
     answer = find_max_element(size, array)
 
-    # Print answer.
+    # Print the answer.
     print(answer)

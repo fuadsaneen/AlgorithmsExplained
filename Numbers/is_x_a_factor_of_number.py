@@ -24,5 +24,5 @@ if __name__ == '__main__':
     # Check whether x is a factor of the number and store the result in answer variable.
     answer = is_x_a_factor_of_number(number, x)
 
-    # Print answer.
+    # Print the answer.
     print(answer)

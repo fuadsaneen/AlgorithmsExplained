@@ -31,5 +31,5 @@ if __name__ == '__main__':
     # Find the reverse of the number and store the result in answer variable.
     answer = reverse_a_number(number)
 
-    # Print answer.
+    # Print the answer.
     print(answer)

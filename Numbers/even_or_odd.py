@@ -23,5 +23,5 @@ if __name__ == '__main__':
     # Check whether the number is even or odd and store the result in answer variable.
     answer = even_or_odd(number)
 
-    # Print answer.
+    # Print the answer.
     print(answer)

@@ -30,5 +30,5 @@ if __name__ == '__main__':
     # Find the sum of elements and store the result in answer variable.
     answer = find_sum(size, array)
 
-    # Print answer.
+    # Print the answer.
     print(answer)

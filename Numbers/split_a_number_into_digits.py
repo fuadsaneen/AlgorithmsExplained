@@ -30,5 +30,5 @@ if __name__ == '__main__':
     # Split the number into digits and store the result in answer variable.
     answer = split_number_into_digits(number)
 
-    # Print answer.
+    # Print the answer.
     print(answer)

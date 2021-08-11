@@ -29,5 +29,5 @@ if __name__ == '__main__':
     # Find the index of the target and store the result in answer variable.
     answer = linear_search(size, array, target)
 
-    # Print answer.
+    # Print the answer.
     print(answer)

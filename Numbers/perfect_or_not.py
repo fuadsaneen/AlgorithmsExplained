@@ -34,5 +34,5 @@ if __name__ == '__main__':
     # Check whether the number is perfect or not and store the result in answer variable.
     answer = perfect_or_not(number)
 
-    # Print answer.
+    # Print the answer.
     print(answer)

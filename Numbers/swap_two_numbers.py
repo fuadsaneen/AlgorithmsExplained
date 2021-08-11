@@ -29,5 +29,5 @@ if __name__ == '__main__':
     # Swap the two numbers and store the result in answer variable.
     answer = swap_two_numbers(a, b)
 
-    # Print answer.
+    # Print the answer.
     print(answer)

@@ -38,5 +38,5 @@ if __name__ == '__main__':
     # Check whether the number is palindrome or not and store the result in answer variable.
     answer = palindrome_or_not(number)
 
-    # Print answer.
+    # Print the answer.
     print(answer)

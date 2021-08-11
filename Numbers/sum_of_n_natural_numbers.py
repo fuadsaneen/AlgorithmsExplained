@@ -29,5 +29,5 @@ if __name__ == '__main__':
     # Find the sum of n natural numbers and store the result in answer variable.
     answer = sum_of_n_natural_numbers(n)
 
-    # Print answer.
+    # Print the answer.
     print(answer)

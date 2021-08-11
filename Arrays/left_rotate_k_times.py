@@ -40,5 +40,5 @@ if __name__ == '__main__':
     # Left rotate the array k times and store the result in answer variable.
     answer = left_rotate_k_times(size, array, k)
 
-    # Print answer.
+    # Print the answer.
     print(answer)

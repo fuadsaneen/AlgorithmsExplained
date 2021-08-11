@@ -23,5 +23,5 @@ if __name__ == '__main__':
     # Find the absolute value of the number and store the result in answer variable.
     answer = absolute_value(number)
 
-    # Print answer.
+    # Print the answer.
     print(answer)

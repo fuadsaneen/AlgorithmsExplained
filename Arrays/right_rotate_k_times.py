@@ -40,5 +40,5 @@ if __name__ == '__main__':
     # Right rotate the array k times and store in answer variable.
     answer = right_rotate_k_times(size, array, k)
 
-    # Print answer.
+    # Print the answer.
     print(answer)

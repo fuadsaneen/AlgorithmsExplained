@@ -26,5 +26,5 @@ if __name__ == '__main__':
     # Check whether the number is positive or negative and store the result in answer variable.
     answer = positive_or_negative(number)
 
-    # Print answer.
+    # Print the answer.
     print(answer)

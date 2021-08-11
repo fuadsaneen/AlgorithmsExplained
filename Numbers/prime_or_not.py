@@ -25,5 +25,5 @@ if __name__ == '__main__':
     # Check whether the number is prime or not and store the result in answer variable.
     answer = prime_or_not(number)
 
-    # Print answer.
+    # Print the answer.
     print(answer)

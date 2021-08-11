@@ -31,5 +31,5 @@ if __name__ == '__main__':
     # Find the sum of digits in the number and store the result in answer variable.
     answer = sum_of_digits(number)
 
-    # Print answer.
+    # Print the answer.
     print(answer)
