@@ -15,7 +15,7 @@ def sum_of_n_natural_numbers(n):
         # Initialize sum as zero.
         sum = 0
         # Compute its value using formula.
-        sum = n*(n + 1)/2
+        sum = (n*(n + 1))/2
 
     # Return the sum.
     return sum
@@ -24,7 +24,7 @@ def sum_of_n_natural_numbers(n):
 if __name__ == '__main__':
 
     # Declare n.
-    n = -18
+    n = 18
 
     # Find the sum of n natural numbers and store the result in answer variable.
     answer = sum_of_n_natural_numbers(n)
