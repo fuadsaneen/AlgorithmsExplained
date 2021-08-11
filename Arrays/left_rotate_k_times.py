@@ -6,7 +6,7 @@
 # O(n) time | O(1) space
 def left_rotate_one_time(size, array):
 
-    # Store first element.
+    # Store the first element.
     first_element = array[0]
 
     # Do for each element starting from position 0 to size - 2 (ie, excluding last element).
