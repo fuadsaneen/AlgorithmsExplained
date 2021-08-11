@@ -1,4 +1,4 @@
-# Program : Find the count of vowels in the string.
+# Program : Find the number of vowels in the string.
 # Input : string = "Nature"
 # Output : 3
 # Explanation : The string "Nature" has 3 vowels in it, ie, 'a', 'u' and 'e'.
