@@ -1,2 +1,2 @@
 # AlgorithmsExplained
-Helping you to become an "algorithmic programmer".
+This repository contains step by step implementation of various algorithms.
