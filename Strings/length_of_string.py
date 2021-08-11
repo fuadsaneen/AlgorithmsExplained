@@ -20,7 +20,7 @@ def length_of_string(number):
 # Main function.
 if __name__ == '__main__':
 
-    # Declare the number.
+    # Declare the string.
     string = "India"
 
     # Find the length of the string and store the result in the answer variable.
