@@ -4,7 +4,7 @@
 # Explanation : The number is splitted into seperate digits and the sum is calculated.
 # Language : Python3
 
-# O(1) time | O(1) space
+# O(n) time | O(1) space
 def sum_of_digits(number):
 
     # Intialize sum as zero.

@@ -4,7 +4,7 @@
 # Explanation : The number is splitted into seperate digits.
 # Language : Python3
 
-# O(1) time | O(1) space
+# O(n) time | O(1) space
 def split_number_into_digits(number):
 
     # Intialize a list to store the digits.
