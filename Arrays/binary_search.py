@@ -14,17 +14,17 @@ def binary_search(size, array, target):
     # Do till the left less than or equal to right.
     while left <= right:
 
-        # Compute the middle index and middle element.
+        # Compute the middle index and the middle element.
         middle_index = left + (right - left) // 2
         middle_element = array[middle_index]
 
-        # If the middle element is equal to the target, then return middle index.
+        # If the middle element is equal to the target, then return the middle index.
         if middle_element == target:
             return middle_index
-        # If the middle element is less than the target, then increment left pointer.   
+        # If the middle element is less than the target, then increment the left pointer.   
         elif middle_element < target:
             left = left + 1
-        # Otherwise, ie, if the middle element is greater than the target, then decrement right pointer.  
+        # Otherwise, ie, if the middle element is greater than the target, then decrement the right pointer.  
         else:
             right = right - 1
 

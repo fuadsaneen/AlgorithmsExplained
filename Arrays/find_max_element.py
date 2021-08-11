@@ -10,11 +10,11 @@ def find_max_element(size, array):
     # Assume that first element is the maximum element in the array.
     max_element = array[0]
 
-    # Do for each element starting from position 1 to size-1.
+    # Do for elements starting from position 1 to size-1 in the array.
     for i in range(1, size):
         # Declare the current element.
         current_element = array[i]
-        # If the current_element is greater than max_element, then update max_element.
+        # If the current_element is greater than the max_element, then update max_element.
         if current_element > max_element:
             max_element = current_element
 

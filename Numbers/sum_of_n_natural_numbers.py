@@ -7,14 +7,14 @@
 # O(1) time | O(1) space
 def sum_of_n_natural_numbers(n):
 
-    # If the number is less than zero, then return error message.
+    # If the number is less than zero, then return the error message.
     if n < 0:
         return "Number can't be negative."
-    # Otherwise, calculate sum using its mathematical formula.    
+    # Otherwise, calculate sum using the mathematical formula.    
     else:
         # Initialize sum as zero.
         sum = 0
-        # Compute its value using formula.
+        # Calculate sum using the formula.
         sum = (n*(n + 1))/2
 
     # Return the sum.

@@ -7,7 +7,7 @@
 # O(n) time | O(1) space
 def sum_of_digits(number):
 
-    # Intialize sum as zero.
+    # Intialize the sum as zero.
     sum = 0
 
     # Do till the number is greater than zero.

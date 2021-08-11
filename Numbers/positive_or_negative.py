@@ -1,4 +1,4 @@
-# Program : Check whether the number is positve or negative.
+# Program : Check whether the number is positve or negative number.
 # Input : number = -3
 # Output : Negative
 # Explanation : -3 is less than zero, so it is a negative number.
@@ -7,13 +7,13 @@
 # O(1) time | O(1) space
 def positive_or_negative(number):
 
-    # If the number is equal to zero, then it is neither positive nor negative.
+    # If the number is equal to zero, then it is neither positive nor negative number.
     if number == 0:
         return "Neither positve nor negative."
-    # If the number is greater than zero, then it is positive.    
+    # If the number is greater than zero, then it is positive number.    
     elif number > 0:
         return "Positve"
-    # Otherwise, ie, if the number is less than zero, then it is negative.
+    # Otherwise, ie, if the number is less than zero, then it is negative number.
     else:
         return "Negative"        
 
