@@ -3,7 +3,7 @@
 # Output : 3
 # Language : Python3
 
-# O(log(n)) | O(1) space
+# O(log(n)) time | O(1) space
 def binary_search(size, array, target):
 
     # Initialize left and right pointers.
