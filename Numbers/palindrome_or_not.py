@@ -7,7 +7,7 @@
 # O(n) time | O(1) space
 def palindrome_or_not(number):
 
-    # Copy nuumber to a temporary variable.
+    # Copy the number to a temporary variable.
     temp = number
 
     # Intialize reverse as zero.
