@@ -28,7 +28,7 @@ if __name__ == '__main__':
     size = 5
     array = [1, 3, 5, 2, 4]
 
-    # Find the minimum element and store it in answer variable.
+    # Find the minimum element and store the result in answer variable.
     answer = find_min_element(size, array)
 
     # Print answer.

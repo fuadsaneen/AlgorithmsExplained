@@ -26,7 +26,7 @@ if __name__ == '__main__':
     array = [1, 3, 5, 2, 4]
     target = 5
 
-    # Find the index of the target and store it in answer variable.
+    # Find the index of the target and store the result in answer variable.
     answer = linear_search(size, array, target)
 
     # Print answer.
