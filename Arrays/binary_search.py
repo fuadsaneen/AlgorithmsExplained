@@ -1,16 +1,16 @@
 # Program : Binary search in an array.
-# Input : size = 5, array = [1, 3, 5, 2, 4], target = 2
-# Output : 3
+# Input : size = 5, array = [1, 2, 3, 4, 5], target = 2
+# Output : 1
 # Language : Python3
 
 # O(log(n)) time | O(1) space
 def binary_search(size, array, target):
 
-    # Initialize left and right pointers.
+    # Initialize the left and right pointers.
     left = 0
     right = size - 1
 
-    # Do while left <= right.
+    # Till the left <= right.
     while left <= right:
 
         # Compute the middle index and middle element.
@@ -36,7 +36,7 @@ if __name__ == '__main__':
 
     # Declare the size, array and target.
     size = 5
-    array = [1, 3, 5, 2, 4]
+    array = [1, 2, 3, 4, 5]
     target = 2
 
     # Find the index of the target and store it in answer variable.
