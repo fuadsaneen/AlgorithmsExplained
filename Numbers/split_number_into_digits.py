@@ -12,7 +12,7 @@ def split_number_into_digits(number):
 
     # Till the number is greater than zero.
     while number > 0:
-        # Calculate last digit and append it to list.
+        # Find the last digit and append it to list.
         last_digit = number % 10
         digits.append(last_digit)
         # Divide the number by 10 to find next last digit.

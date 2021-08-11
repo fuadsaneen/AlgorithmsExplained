@@ -15,7 +15,7 @@ def palindrome_or_not(number):
 
     # Till the number is greater than zero.
     while number > 0:
-        # Calculate last digit.
+        # Find the last digit.
         last_digit = number % 10
         # Add the last digit to reverse.
         reverse = (reverse*10) + last_digit
