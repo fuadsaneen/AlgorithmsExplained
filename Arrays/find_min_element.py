@@ -13,7 +13,7 @@ def find_min_element(size, array):
     for i in range(1, size):
         # Declare the current element.
         current_element = array[i]
-        # If current_element is less than min_element, then update min_element.
+        # If the current_element is less than min_element, then update min_element.
         if current_element < min_element:
             min_element = current_element
 
