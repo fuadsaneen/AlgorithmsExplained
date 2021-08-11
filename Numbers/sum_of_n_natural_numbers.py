@@ -1,7 +1,7 @@
 # Program : Find the sum of n natural numbers.
 # Input : n = 18
 # Output : 171
-# Explanation : The sum of natural numbers between 1 and 18 is 171.
+# Explanation : The sum of natural numbers upto 18 is 171.
 # Language : Python3
 
 # O(1) time | O(1) space
