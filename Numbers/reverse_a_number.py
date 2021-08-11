@@ -7,14 +7,14 @@
 # O(n) time | O(1) space
 def reverse_a_number(number):
 
-    # Intialize reverse as zero.
+    # Intialize the reverse as zero.
     reverse = 0
 
     # Do till the number is greater than zero.
     while number > 0:
         # Find the last digit.
         last_digit = number % 10
-        # Add the last digit to reverse.
+        # Add the last digit to the reverse.
         reverse = (reverse*10) + last_digit
         # Divide the number by 10 to find the next last digit.
         number = number // 10   
