@@ -1,6 +1,6 @@
 # Program : Find the maximum element in an array.
 # Input : size = 5 and array = [1, 3, 5, 2, 4]
-# Ouput : 5
+# Output : 5
 # Language : Python3
 
 # O(n) time | O(1) space
@@ -9,7 +9,7 @@ def find_max_element(size, array):
     # Assume that first element is the maximum element in the array.
     max_element = array[0]
 
-    # Do for each element from position 1 to size-1.
+    # Do for each element starting from position 1 to size-1.
     for i in range(1, size):
         # Declare the current element.
         current_element = array[i]

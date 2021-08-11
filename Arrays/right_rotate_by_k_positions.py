@@ -1,6 +1,6 @@
 # Program : Right rotate the array by k positions.
 # Input : size = 5, array = [1, 3, 5, 2, 4], k = 2
-# Ouput : [2, 4, 1, 3, 5]
+# Output : [2, 4, 1, 3, 5]
 # Language : Python3
 
 # O(n) time | O(1) space
@@ -9,7 +9,7 @@ def right_rotate_by_one(size, array):
     # Store last element.
     last_element = array[-1]
 
-    # Do for each element from position size - 2 to 0 (ie, excluding last element).
+    # Do for each element starting from position size - 2 to 0 (ie, excluding last element).
     for i in reversed(range(size - 1)):
         # Copy current element to next element.
         array[i + 1] = array[i]

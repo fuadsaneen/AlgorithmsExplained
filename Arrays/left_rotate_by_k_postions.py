@@ -1,6 +1,6 @@
 # Program : Left rotate the array by k positions.
 # Input : size = 5, array = [1, 3, 5, 2, 4], k = 2
-# Ouput : [5, 2, 4, 1, 3]
+# Output : [5, 2, 4, 1, 3]
 # Language : Python3
 
 # O(n) time | O(1) space
@@ -9,7 +9,7 @@ def left_rotate_by_one(size, array):
     # Store first element.
     first_element = array[0]
 
-    # Do for each element from position 0 to size - 2 (ie, excluding last element).
+    # Do for each element starting from position 0 to size - 2 (ie, excluding last element).
     for i in range(size - 1):
         # Copy next element to current element.
         array[i] = array[i + 1]
