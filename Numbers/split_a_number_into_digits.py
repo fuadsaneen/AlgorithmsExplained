@@ -15,7 +15,7 @@ def split_number_into_digits(number):
         # Find the last digit and append it to list.
         last_digit = number % 10
         digits.append(last_digit)
-        # Divide the number by 10 to find next last digit.
+        # Divide the number by 10 to find the next last digit.
         number = number // 10   
 
     # Return the digits.

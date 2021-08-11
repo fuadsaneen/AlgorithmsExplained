@@ -19,7 +19,7 @@ def palindrome_or_not(number):
         last_digit = number % 10
         # Add the last digit to reverse.
         reverse = (reverse*10) + last_digit
-        # Divide the number by 10 to find next last digit.
+        # Divide the number by 10 to find the next last digit.
         number = number // 10   
 
     # if reverse is equal to the temp, then the number is palindrome.

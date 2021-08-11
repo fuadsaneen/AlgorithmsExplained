@@ -19,7 +19,7 @@ def armstrong_or_not(number):
         last_digit = number % 10
         # Add the last digit's cube to sum.
         sum = sum + (last_digit * last_digit * last_digit)
-        # Divide the number by 10 to find next last digit.
+        # Divide the number by 10 to find the next last digit.
         number = number // 10   
 
     # if sum is equal to the temp, then the number is armstrong.
