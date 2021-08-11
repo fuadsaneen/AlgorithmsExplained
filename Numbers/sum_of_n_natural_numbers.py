@@ -9,7 +9,7 @@ def sum_of_n_natural_numbers(n):
 
     # If the number is less than zero, then return -1
     if n < 0:
-        return -1
+        return "Number can't be negative."
     # Otherwise, calculate sum using its mathematical formula.    
     else:
         # Initialize sum as zero.
@@ -24,7 +24,7 @@ def sum_of_n_natural_numbers(n):
 if __name__ == '__main__':
 
     # Declare n.
-    n = 18
+    n = -18
 
     # Find the sum of n natural numbers and store the result in answer variable.
     answer = sum_of_n_natural_numbers(n)
