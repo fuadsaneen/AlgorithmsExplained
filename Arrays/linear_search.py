@@ -1,32 +1,32 @@
 # Program : Linear search in an array.
-# Input : size = 5, array = [1, 3, 5, 2, 4], key = 5
+# Input : size = 5, array = [1, 3, 5, 2, 4], target = 5
 # Output : 2
 # Language : Python3
 
 # O(n) time | O(1) space
-def linear_search(size, array, key):
+def linear_search(size, array, target):
 
     # Do for each element in the array.
     for i in range(size):
         # Declare the current element.
         current_element = array[i]
-        # If the current element is equal to key, then return the current index.
-        if current_element == key:
+        # If the current element is equal to target, then return the current index.
+        if current_element == target:
             return i
 
-    # If the key is not found, then return -1.
+    # If the target is not found, then return -1.
     return -1
 
 # Main function.
 if __name__ == '__main__':
 
-    # Declare the size, array and key.
+    # Declare the size, array and target.
     size = 5
     array = [1, 3, 5, 2, 4]
-    key = 10
+    target = 5
 
-    # Find the index of the key and store it in answer variable.
-    answer = linear_search(size, array, key)
+    # Find the index of the target and store it in answer variable.
+    answer = linear_search(size, array, target)
 
     # Print answer.
     print(answer)
