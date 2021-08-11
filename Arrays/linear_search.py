@@ -1,6 +1,7 @@
 # Program : Linear search in an array.
 # Input : size = 5, array = [1, 3, 5, 2, 4], target = 5
 # Output : 2
+# Explanation : The index of element 5 is 2.
 # Language : Python3
 
 # O(n) time | O(1) space

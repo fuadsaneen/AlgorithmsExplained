@@ -1,6 +1,7 @@
 # Program : Find the minimum element in an array.
 # Input : size = 5 and array = [1, 3, 5, 2, 4]
 # Output : 1
+# Explanation : The minimum element in the array is 1.
 # Language : Python3
 
 # O(n) time | O(1) space

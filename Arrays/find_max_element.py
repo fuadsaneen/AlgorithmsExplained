@@ -1,6 +1,7 @@
 # Program : Find the maximum element in an array.
 # Input : size = 5 and array = [1, 3, 5, 2, 4]
 # Output : 5
+# Explanation : The maximum element in the array is 5.
 # Language : Python3
 
 # O(n) time | O(1) space

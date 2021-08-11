@@ -1,6 +1,7 @@
 # Program : Left rotate the array k times.
 # Input : size = 5, array = [1, 3, 5, 2, 4], k = 2
 # Output : [5, 2, 4, 1, 3]
+# Explanation : The array is rotated to left k times.
 # Language : Python3
 
 # O(n) time | O(1) space
