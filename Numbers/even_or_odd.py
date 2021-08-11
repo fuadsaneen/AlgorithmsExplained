@@ -1,4 +1,4 @@
-# Program : Determine whether a number is even or odd.
+# Program : Determine whether the given number is even or odd.
 # Input : number = 5
 # Output : Odd
 # Explanation : 5 is not divisible by 2, so it is an odd number.
