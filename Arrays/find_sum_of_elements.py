@@ -13,7 +13,7 @@ def find_sum(size, array):
     for i in range(size):
         # Declare the current element.
         current_element = array[i]
-        # Add current element to sum.
+        # Add the current element to sum.
         sum = sum + current_element
         
     # Return the sum.
