@@ -6,7 +6,7 @@
 # O(log(n)) time | O(1) space
 def binary_search(size, array, target):
 
-    # Initialize the left and right pointers.
+    # Initialize the left and right pointers as zero and size-1.
     left = 0
     right = size - 1
 
