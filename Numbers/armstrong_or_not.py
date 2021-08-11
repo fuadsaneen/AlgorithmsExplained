@@ -22,10 +22,10 @@ def armstrong_or_not(number):
         # Divide the number by 10 to find the next last digit.
         number = number // 10   
 
-    # If sum is equal to the temp, then the number is armstrong.
+    # If sum is equal to the temp, then the number is an armstrong number.
     if sum == temp:
         return True
-    # Otherwise, ie, if the sum is not equal to the temp, then the number is not armstrong.
+    # Otherwise, ie, if the sum is not equal to the temp, then the number is not an armstrong number.
     else:
         return False 
 

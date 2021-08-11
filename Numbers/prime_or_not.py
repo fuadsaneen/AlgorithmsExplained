@@ -9,11 +9,11 @@ def prime_or_not(number):
 
     # Do for each element from 2 to number - 1
     for i in range(2, number - 1):
-        # If the number is divisible by current element, then it is not prime.
+        # If the number is divisible by current element, then it is not a prime number.
         if number % i == 0:
             return False
 
-    # Otherwise, ie, if the number is not divisible by any element other than 1 and the number itself, then it is a prime.
+    # Otherwise, ie, if the number is not divisible by any element other than 1 and the number itself, then it is a prime number.
     return True        
 
 # Main function.

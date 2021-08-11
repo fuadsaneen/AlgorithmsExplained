@@ -18,10 +18,10 @@ def perfect_or_not(number):
             else:
                 sum = sum + i + (number/i)
 
-    # If the sum is equal to the number, then it is perfect.
+    # If the sum is equal to the number, then it is a perfect number.
     if sum == number:
         return True
-    # Otherwise, ie, if the sum is not equal to the number, then it is not perfect.
+    # Otherwise, ie, if the sum is not equal to the number, then it is not a perfect number.
     else:
         return False                   
 
