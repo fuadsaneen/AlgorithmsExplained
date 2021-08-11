@@ -22,7 +22,7 @@ def left_rotate_k_times(size, array, k):
 
     # Do for k times.
     for i in range(k):
-        # Left rotate the array by one position.
+        # Left rotate the array one time.
         left_rotate_one_time(size, array)
 
     # Return the updated array.
